@@ -3,6 +3,11 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 :root {
   /* Napoli Pizzeria Theme - Cream, Italian Red, Black, Olive */
   --background: oklch(0.98 0.005 90); /* #FAFAF8 cream */
