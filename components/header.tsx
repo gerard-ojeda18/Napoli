@@ -90,7 +90,7 @@ export function Header() {
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="absolute left-0 right-0 top-20 bg-background/95 backdrop-blur-md shadow-lg md:hidden">
+        <div className="absolute left-0 right-0 top-20 w-full bg-background/95 backdrop-blur-md shadow-lg md:hidden">
           <nav className="flex flex-col gap-4 p-6">
             {navLinks.map((link) => (
               <Link
